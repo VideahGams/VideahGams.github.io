@@ -62,17 +62,25 @@ ul {
 
 
 li {
-
-	margin: 30px;
-	padding: 30px;
-	background-color: #1D1F21;
-	border: 1px solid #373B41;
-
+ 
+        margin: 30px;
+        background-color: #1D1F21;
+        border: 1px solid #373B41;
+ 
 }
-
+ 
 a {
-
-	color: white;
-	text-decoration: none;
-
+ 
+        color: white;
+        text-decoration: none;
+        text-indent: 30px;
+        line-height: 100px;
+        display: block;
+ 
+}
+ 
+a:hover {
+ 
+        background: rgba(255, 255, 255, 0.1);
+ 
 }
