@@ -75,6 +75,12 @@ a {
  
 }
 
+a:hover {
+ 
+	background: rgba(255, 255, 255, 0.1);
+ 
+}
+
 i {
 
 	width: 1.25em;
@@ -83,9 +89,20 @@ i {
 	vertical-align: -10%;
 
 }
- 
-a:hover {
- 
-	background: rgba(255, 255, 255, 0.1);
- 
+
+p {
+
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+	transform: translateX(-50%);
+    font-size: 10px !important;
+
+}
+
+#heart {
+
+	font-size:10px !important;
+	color: rgb(206, 31, 27);
+
 }
