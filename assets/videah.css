@@ -141,3 +141,11 @@ i {
 	transform: translate(-50%, -50%);
 
 }
+
+::selection {
+	background: #E85454
+}
+
+::-moz-selection {
+	background: #E85454
+}
